@@ -1,0 +1,22 @@
+{
+  "name": "clark_farm",
+  "version": "1.0.0",
+  "description": "clark farm website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorenzoLingardo/Clark_Farm.git"
+  },
+  "keywords": [
+    "clarkfarm"
+  ],
+  "author": "Lorenzo Lingardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LorenzoLingardo/Clark_Farm/issues"
+  },
+  "homepage": "https://github.com/LorenzoLingardo/Clark_Farm#readme"
+}

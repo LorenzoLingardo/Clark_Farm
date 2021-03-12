@@ -1,0 +1,272 @@
+h1, p {
+    font-family: Lato;
+
+  }
+  
+  body{
+    background: white;
+    
+  }
+
+  /* Main Header */
+  .main-header{
+    position: fixed;
+    top: 0;
+    bottom: 85%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: #eeb584;
+  }
+
+  /* Title */
+  .main-title{
+    position: fixed;
+    left: 41%;
+    top: 5%;
+    font-size: 40px;
+    overflow: hidden;
+    background: hidden;
+    color: #900C3F;
+    text-align: center;
+    font-family: 'Stick', sans-serif;
+    text-decoration: none;
+  }
+
+  .main-title:link{
+    color: #900C3F;
+  }
+
+  .main-title:visited{
+    color: #900C3F;
+  }
+  /* Home Button */
+  .home-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .home-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .home-btn:active{
+    background-color: #eeb584;
+  }
+  /* Calendar Button */
+  .calendar-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    left: 140px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .calendar-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .calendar-btn:active{
+    background-color: #eeb584;
+  }
+  /* Events Button */
+  .events-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    left: 300px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .events-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .events-btn:active{
+    background-color: #eeb584;
+  }
+  /* Photos Button */
+  .photos-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    left: 450px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .photos-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .photos-btn:active{
+    background-color: #eeb584;
+  }
+  /* Volunteer Button */
+  .volunteer-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    left: 1400px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .volunteer-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .volunteer-btn:active{
+    background-color: #eeb584;
+  }
+  /* Store Button */
+  .store-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    left: 1550px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .store-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .store-btn:active{
+    background-color: #eeb584;
+  }
+  /* Donate Button */
+  .donate-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    left: 1675px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .donate-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .donate-btn:active{
+    background-color: #eeb584;
+  }
+  /* About Us Button */
+  .about-btn{
+    position: fixed;
+    font-size: 20px;
+    top: 90px;
+    left: 1800px;
+    border: hidden;
+    background: hidden;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .about-btn:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .about-btn:active{
+    background-color: #eeb584;
+  }
+  /* Slideshow */
+  .slideshow{
+    position: fixed;
+    left: 23%;
+    top: 13%;
+    height: 400px;
+    width: 1000px;
+  }
+  /* Dots */
+  .dots{
+    background: white;
+    cursor: pointer;
+    color: #900C3F;
+    border: hidden;
+    position: fixed;
+    top: 56%;
+    left: 50%;
+  }
+  /* Farm Number*/
+  .farmnumber{
+    position: fixed;
+    top: 90%;
+    left: 45%;
+    text-align: center;
+  }
+  /* Farm Address */
+  .address{
+    position: fixed;
+    top: 800px;
+    left: 800px;
+    border: hidden;
+    background: white;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .address:hover{
+    opacity: 1;
+    color: #900C3F;
+  }
+
+  .address:active{
+    background-color: #eeb584;
+  }
+  
+  a:link{
+    color: black;
+  }
+
+  a:visited{
+    color: black;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
